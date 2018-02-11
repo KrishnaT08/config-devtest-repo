@@ -3,3 +3,15 @@ configserver:
     name: configserver
     status: Connected to the configserver git config server!
 
+management:
+    context-path: /management
+    security:
+        enabled: false
+    health:
+        jms:
+            enabled: false
+        config:
+            enabled: false
+endpoints:
+    health:
+        sensitive: false
