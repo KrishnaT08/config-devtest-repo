@@ -15,3 +15,7 @@ management:
 endpoints:
     health:
         sensitive: false
+
+security:
+  basic:
+    enabled: false
