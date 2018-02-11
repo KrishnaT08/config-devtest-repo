@@ -1,0 +1,7 @@
+eureka:
+    instance:
+        appname: rate
+    client:
+        fetch-registry: true
+        register-with-eureka: true       
+        

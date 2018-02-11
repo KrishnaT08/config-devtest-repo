@@ -1,0 +1,5 @@
+# Property used on app startup to check the config server status
+configserver:
+    name: configserver
+    status: Connected to the configserver git config server!
+
